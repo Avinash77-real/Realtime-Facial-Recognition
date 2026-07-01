@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# VS Code settings
+.vscode/
+
+# Ignore model weights (Upload these manually to GitHub releases if they are >50MB)
+models/*.h5
+models/*.pb
+models/*.keras
+
+# Ignore datasets
+data/
+fer2013/
+*.csv
