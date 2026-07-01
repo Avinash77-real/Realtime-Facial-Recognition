@@ -36,7 +36,5 @@ if __name__ == "__main__":
     model = build_emotion_cnn()
     model.summary()
     
-    # Placeholder for training logic (Requires FER2013 dataset to be downloaded locally)
     print("[INFO] Ready for training on FER2013 dataset.")
-    # model.fit(x_train, y_train, epochs=50, validation_data=(x_test, y_test))
-    # model.save('../models/emotion_model.h5')
+  
